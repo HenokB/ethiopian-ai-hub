@@ -129,15 +129,15 @@ export const projects = [
   {
     id: 5,
     title: "Amharic QA Dataset",
-    languages_used: ["QA", "Dataset"], // Languages and libraries used
-    creator: ["Tilahun Abedissa§, Ricardo Usbeck, Yaregal Assabie"], // Who created the project
+    languages_used: ["QA", "Dataset"], 
+    creator: ["Tilahun Abedissa§, Ricardo Usbeck, Yaregal Assabie"], 
     description: `Amharic Question Answering Dataset (Amh-QuAD). 2,628 question-answer pairs from over 378 Amharic Wikipedia articles.`,
     featured: true, 
     domain: [
       "LLM",
     ],
-    category: ["Dataset"], // Dataset, Model, Paper
-    field: "NLP", // Computer Vision, NLP ...
+    category: ["Dataset"], 
+    field: "NLP", 
     links: [
       
       {
@@ -151,7 +151,7 @@ export const projects = [
         link: "https://arxiv.org/pdf/2303.03290",
       },
     ],
-    year: "2024", // The year that the project published
+    year: "2024", 
     content: "Model",
   },
   {
