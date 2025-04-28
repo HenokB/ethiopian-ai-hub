@@ -18,16 +18,16 @@ export interface LinkesTypes {
 export interface ProjectType {
   id: number | string;
   title: string;
-  languages_used: string[];
-  creator: string[];
+  languages_used?: string[];
+  creator?: string[];
   description: string;
-  featured: boolean;
-  domain: string[];
-  category: string[];
-  field: string;
+  featured?: boolean;
+  domain?: string[];
+  category?: string[];
+  field?: string;
   links: LinkesTypes[];
   year: string;
-  content: string;
+  content?: string;
 }
 
 export interface FilterOptionsTypes {

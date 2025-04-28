@@ -2,8 +2,12 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/ethioai-hub",
-  /* config options here */
+  basePath: "/ethiopian-ai-hub",
+  trailingSlash: true,
+
 };
 
 export default nextConfig;
+
+
+
