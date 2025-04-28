@@ -132,7 +132,8 @@ const Projects = () => {
         {projectsToDisplay.length > 0 ? (
           projectsToDisplay.map((project, index) => {
             if (index > 19) return null; // Limit to first 20 projects
-            return <Card key={index} index={index} project={project} />;
+            return <Card key={index} project={project} />;
+
           })
           
         ) : (
