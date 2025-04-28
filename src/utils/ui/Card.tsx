@@ -5,11 +5,10 @@ import IconMoniter from "../icons/IconMoniter";
 import IconLink from "../icons/IconLink";
 
 interface ProjectProps {
-  index: number;
   project: ProjectType;
 }
 
-const Card = ({ index, project }: ProjectProps) => {
+const Card = ({ project }: ProjectProps) => {
   return (
     <div className="w-full z-0 border rounded-md p-3 space-y-4 min-h-24">
       {/* Card Header */}
