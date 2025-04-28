@@ -25,62 +25,95 @@ const Projects = () => {
     setItemsToShow(initialCardsToShow);
     const searchProjects = () => {
       const query = searchQuesry.toLowerCase();
+    
       const results = projects.filter((project) => {
+        const matchesTitle = project.title.toLowerCase().includes(query);
+        const matchesField = project.field?.toLowerCase().includes(query) ?? false;
+        const matchesCreator = project.creator?.some((author) =>
+          author.toLowerCase().includes(query)
+        ) ?? false;
+        const matchesDomain = project.domain?.some((domainItem) =>
+          domainItem.toLowerCase().includes(query)
+        ) ?? false;
+        const matchesCategory = project.category?.some((categoryItem) =>
+          categoryItem.toLowerCase().includes(query)
+        ) ?? false;
+    
         return (
-          project.title.toLowerCase().includes(query) ||
-          project.field.toLowerCase().includes(query)
+          matchesTitle ||
+          matchesField ||
+          matchesCreator ||
+          matchesDomain ||
+          matchesCategory
         );
       });
-
+    
       setFilteredProjects(results);
     };
+    
     searchProjects();
   }, [searchQuesry]);
 
   useEffect(() => {
     setItemsToShow(initialCardsToShow);
     const filterProjects = () => {
+      const query = searchQuesry.toLowerCase();
+  
       const results = projects.filter((project) => {
-        // Check if project matches the search query
-        const matchesSearch =
-          project.title.toLowerCase().includes(searchQuesry.toLowerCase()) ||
-          project.field.toLowerCase().includes(searchQuesry.toLowerCase());
-
-        // Check if project matches contents filter
+        const matchesTitle = project.title.toLowerCase().includes(query);
+        const matchesField = project.field?.toLowerCase().includes(query) ?? false;
+        const matchesCreator = project.creator?.some((author) =>
+          author.toLowerCase().includes(query)
+        ) ?? false;
+        const matchesDomain = project.domain?.some((domainItem) =>
+          domainItem.toLowerCase().includes(query)
+        ) ?? false;
+        const matchesCategory = project.category?.some((categoryItem) =>
+          categoryItem.toLowerCase().includes(query)
+        ) ?? false;
+  
+        const matchesSearch = (
+          matchesTitle ||
+          matchesField ||
+          matchesCreator ||
+          matchesDomain ||
+          matchesCategory
+        );
+  
+        // Check if project matches filter options
         const matchesContents = checkedFilters.contents.length
           ? checkedFilters.contents.some((content) =>
-              project.category.some((projectContent) =>
+              project.category?.some((projectContent) =>
                 projectContent.toLowerCase().includes(content.toLowerCase())
               )
             )
           : true;
-
-        // Check if project matches fields filter
+  
         const matchesFields = checkedFilters.fields.length
           ? checkedFilters.fields.some((field) =>
-              project.field.toLowerCase().includes(field.toLowerCase())
+              project.field?.toLowerCase().includes(field.toLowerCase())
             )
           : true;
-
-        // Check if project matches domains filter
+  
         const matchesDomains = checkedFilters.domains.length
           ? checkedFilters.domains.some((domain) =>
-              project.domain.some((projectDomain) =>
+              project.domain?.some((projectDomain) =>
                 projectDomain.toLowerCase().includes(domain.toLowerCase())
               )
             )
           : true;
-
+  
         return (
           matchesSearch && matchesContents && matchesFields && matchesDomains
         );
       });
-
+  
       setFilteredProjects(results);
     };
-
+  
     filterProjects();
-  }, [checkedFilters, searchQuesry]); // Trigger when checkedFilters or searchQuery changes
+  }, [checkedFilters, searchQuesry]);
+  
 
   useEffect(() => {
     const loadedData = filteredProjects.slice(0, itmesToshow);
@@ -99,8 +132,9 @@ const Projects = () => {
         {projectsToDisplay.length > 0 ? (
           projectsToDisplay.map((project, index) => {
             if (index > 19) return null; // Limit to first 20 projects
-            return <Card key={project.id} index={index} project={project} />;
+            return <Card key={index} index={index} project={project} />;
           })
+          
         ) : (
           <div className="w-full py-24">
             <p className="opacity-65 text-2xl">No results found!</p>
@@ -109,16 +143,21 @@ const Projects = () => {
       </div>
 
       <div className="w-full flex justify-center py-10">
-        {filteredProjects.length > projectsToDisplay.length && (
+        {filteredProjects.length > projectsToDisplay.length ? (
           <button
             type="button"
-            className=" w-fit p-2.5 bg-blue-500 rounded hover:opacity-70"
+            className="w-fit p-2.5 bg-blue-500 rounded hover:opacity-70"
             onClick={() => setItemsToShow(itmesToshow + 10)}
           >
             Load more contents
           </button>
+        ) : (
+          filteredProjects.length > 0 && (
+            <p className="text-gray-400 text-sm">You have reached the end.</p>
+          )
         )}
       </div>
+
     </div>
   );
 };

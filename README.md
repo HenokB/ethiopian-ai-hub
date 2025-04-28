@@ -2,6 +2,8 @@
 
 # Ethiopian AI Research Hub
 
+https://henokb.github.io/ethiopian-ai-hub/
+
 </div>
 
 Explore machine learning models, datasets, and research papers focused on Ethiopian 
