@@ -68,18 +68,16 @@ const Card = ({ index, project }: ProjectProps) => {
 
       {/* Languages */}
       <div className="flex w-full items-center space-x-2">
-        {project.languages_used.map((item, i) => {
-          if (i > 2) return null;
-          return (
-            <div
-              key={i}
-              className="flex text-white w-fit items-center space-x-1 text-xs opacity-65 rounded-md px-2 py-1 md:py-0"
-            >
-              <IconStart className="w-4 h-4" />
-              <p>{item}</p>
-            </div>
-          );
-        })}
+      {project.languages_used?.slice(0, 3).map((item, i) => (
+        <div
+          key={i}
+          className="flex text-white w-fit items-center space-x-1 text-xs opacity-65 rounded-md px-2 py-1 md:py-0"
+        >
+          <IconStart className="w-4 h-4" />
+          <p>{item}</p>
+        </div>
+      ))}
+
       </div>
 
       {/* CARD FOOTER */}
