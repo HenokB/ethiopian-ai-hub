@@ -205,7 +205,7 @@ export const projects = [
   },
 
   {
-    id: 1,
+    id: 11,
     title: "Dense Retrieval for Low Resource Languages -- the Case of Amharic Language",
     creator: [
       "Tilahun Yeshambel",
