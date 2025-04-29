@@ -17,77 +17,59 @@ const Dropdown = ({ checkedFilters, setCheckedFilters }: DropdownProps) => {
       {isOpen && (
         <div
           onClick={() => setIsOpen(false)}
-          className="fixed top-0 left-0 w-full h-full bg-transparent"
+          className="fixed top-0 left-0 w-full h-full bg-transparent z-40"
         />
       )}
       <div className="relative flex sm:block w-full md:w-fit items-center space-x-5 sm:space-x-0 space-y-2">
         <div className="relative w-full">
           <div
-            className="border rounded-md w-full min-w-56 px-2 py-2 flex space-x-2 items-center opacity-60 cursor-pointer"
+            className="border rounded-lg w-full min-w-56 px-3 py-2 flex space-x-2 items-center bg-gradient-to-r from-gray-800 to-gray-900 text-white cursor-pointer hover:opacity-80 transition-all"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <IconFilter />
-            <p>Filter by category</p>
+            <IconFilter/><div className="w-4 h-4 text-gray-400" />
+            <p className="text-sm font-medium">Filter by category</p>
           </div>
+
           {isOpen && (
-            <div className="search-select min-h-24 max-h-[500px] z-50 border py-3 space-y-3 absolute min-w-full h-fit overflow-auto p-2 rounded-md z-100 bg-white dark:bg-black">
+            <div className="absolute top-full mt-2 bg-gray-900 text-white rounded-lg border border-gray-700 shadow-lg w-full max-h-[400px] overflow-auto z-50 p-4 space-y-4">
               {Object.entries(filterOptions).map(([key, values], index) => {
                 if (values.length === 0) return null;
-                // Ensuring the key is treated as a valid key from FilterOptionsTypes
                 const typedKey = key as keyof FilterOptionsTypes;
 
                 return (
-                  <div
-                    key={index}
-                    className={`${
-                      Object.keys(filterOptions).length - 1 !== index &&
-                      "border-b"
-                    } pb-2 space-y-1 capitalize`}
-                  >
-                    <label className="font-bold">{key}</label>
-                    {values.map((option, i) => {
-                      return (
-                        <div
-                          key={i}
-                          className="flex font-extralight opacity-80 items-center space-x-1 cursor-pointer w-fit px-2"
-                        >
-                          <input
-                            id={option}
-                            type="checkbox"
-                            checked={checkedFilters[typedKey].some(
-                              (item: string) =>
-                                item.toLowerCase() === option.toLowerCase()
-                            )}
-                            className="h-5 w-5 cursor-pointer transition-all rounded shadow hover:shadow-md border border-none bg-red-300 peer-checked:bg-gray-500 checked:border-slate-800"
-                            onChange={() => {
-                              const updatedFilters = { ...checkedFilters }; // Copy current filters
-                              const existing = updatedFilters[typedKey]; // Get the current array for the key
+                  <div key={index} className="space-y-2">
+                    <p className="font-semibold text-gray-300 capitalize border-b pb-1 border-gray-700">{key}</p>
+                    {values.map((option, i) => (
+                      <label
+                        key={i}
+                        className="flex items-center space-x-2 text-sm cursor-pointer hover:text-gray-200"
+                      >
+                        <input
+                          type="checkbox"
+                          checked={checkedFilters[typedKey].some(
+                            (item: string) => item.toLowerCase() === option.toLowerCase()
+                          )}
+                          onChange={() => {
+                            const updatedFilters = { ...checkedFilters };
+                            const existing = updatedFilters[typedKey];
 
-                              // Add or remove the option based on its presence
-                              if (
-                                existing.some(
-                                  (item: string) =>
-                                    item.toLowerCase() === option.toLowerCase()
-                                )
-                              ) {
-                                updatedFilters[typedKey] = existing.filter(
-                                  (item: string) =>
-                                    item.toLowerCase() !== option.toLowerCase()
-                                );
-                              } else {
-                                updatedFilters[typedKey] = [
-                                  ...existing,
-                                  option,
-                                ];
-                              }
+                            if (existing.some(
+                              (item: string) => item.toLowerCase() === option.toLowerCase()
+                            )) {
+                              updatedFilters[typedKey] = existing.filter(
+                                (item: string) => item.toLowerCase() !== option.toLowerCase()
+                              );
+                            } else {
+                              updatedFilters[typedKey] = [...existing, option];
+                            }
 
-                              setCheckedFilters(updatedFilters);
-                            }}
-                          />
-                          <p className=" text-nowrap">{option}</p>
-                        </div>
-                      );
-                    })}
+                            setCheckedFilters(updatedFilters);
+                          }}
+                          className="h-4 w-4 rounded border-gray-600 bg-gray-700 text-blue-500 focus:ring-2 focus:ring-blue-400"
+                        />
+                        <span>{option}</span>
+                      </label>
+                    ))}
                   </div>
                 );
               })}

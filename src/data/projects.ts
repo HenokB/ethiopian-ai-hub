@@ -170,23 +170,7 @@ export const projects = [
     year: "2024",
     content: "Paper",
   },
-  {
-    id: 7,
-    title: "Walia-LLM",
-    creator: ["Israel Abebe Azime", "Atnafu Lambebo Tonja", "Tadesse Destaw Belay","et al"],
-    description: `Walia-LLM is an Amharic-tuned LLaMA model fine-tuned using task-specific and translated instruction datasets for improved downstream performance.`,
-    featured: false,
-    domain: ["General", "Education"],
-    category: ["Paper"],
-    field: "NLP",
-    links: [
-      { id: 1, name: "ACL Anthology", link: "https://aclanthology.org/2024.findings-emnlp.25" },
-      { id: 2, name: "GitHub", link: "https://github.com/IsraelAbebe/Walia-LLM" },
-    ],
-    year: "2024",
-    content: "Paper",
-  },
-
+  
   {
     id: 10,
     title: "Detecting Hate Speech in Amharic Using Multimodal Analysis of Social Media Memes",
@@ -1596,7 +1580,1432 @@ export const projects = [
     content: "Paper",
   },
   
-  ];
+
+    {
+      id: 0,
+      title: "Amharic Word Sequence Prediction",
+      creator: [
+        "Nuniyat Kifle",
+      ],
+      description: "Paper on Amharic Word Sequence Prediction",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W19-3607/",
+    }  ],
+      year: "2019",
+      content: "Paper",
+    },
+    {
+      id: 1,
+      title: "Amharic Question Answering for Biography, Definition, and Description Questions",
+      creator: [
+        "Tilahun Abedissa Taffa",
+        "Mulugeta Libsie",
+      ],
+      description: "Paper on Amharic Question Answering for Biography, Definition, and Description Questions",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W19-3635/",
+    }  ],
+      year: "2019",
+      content: "Paper",
+    },
+    {
+      id: 2,
+      title: "GeezSwitch: Language Identification in Typologically Related Low-resourced {E}ast African Languages",
+      creator: [
+        "Fitsum Gaim",
+        "Wonsuk Yang",
+        "Jong C. Park",
+      ],
+      description: "Paper on GeezSwitch: Language Identification in Typologically Related Low-resourced {E}ast African Languages",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2022.lrec-1.707/",
+    }  ],
+      year: "2022",
+      content: "Paper",
+    },
+    {
+      id: 3,
+      title: "Speech Recognition for Tigrinya language Using Deep Neural Network Approach",
+      creator: [
+        "Hafte Abera",
+        "Sebsibe H/mariam",
+      ],
+      description: "Paper on Speech Recognition for Tigrinya language Using Deep Neural Network Approach",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W19-3603/",
+    }  ],
+      year: "2019",
+      content: "Paper",
+    },
+    {
+      id: 4,
+      title: "TIGQA}: An Expert-Annotated Question-Answering Dataset in Tigrinya",
+      creator: [
+        "Hailay Kidu Teklehaymanot",
+        "Dren Fazlija",
+        "Niloy Ganguly",
+        "Gourab Kumar Patro",
+        "Wolfgang Nejdl",
+      ],
+      description: "Paper on TIGQA}: An Expert-Annotated Question-Answering Dataset in Tigrinya",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2024.lrec-main.1404/",
+    }  ],
+      year: "2024",
+      content: "Paper",
+    },
+    {
+      id: 5,
+      title: "Question-Answering in a Low-resourced Language: Benchmark Dataset and Models for Tigrinya",
+      creator: [
+        "Fitsum Gaim",
+        "Wonsuk Yang",
+        "Hancheol Park",
+        "Jong Park",
+      ],
+      description: "Paper on Question-Answering in a Low-resourced Language: Benchmark Dataset and Models for Tigrinya",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2023.acl-long.661/",
+    }  ],
+      year: "2023",
+      content: "Paper",
+    },
+    {
+      id: 6,
+      title: "Tigrinya Automatic Speech recognition with Morpheme based recognition units",
+      creator: [
+        "Hafte Abera",
+        "Sebsibe Hailemariam",
+      ],
+      description: "Paper on Tigrinya Automatic Speech recognition with Morpheme based recognition units",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2020.winlp-1.12/",
+    }  ],
+      year: "2020",
+      content: "Paper",
+    },
+    {
+      id: 7,
+      title: "Speech Recognition for Tigrinya language Using Deep Neural Network Approach",
+      creator: [
+        "Hafte Abera",
+        "Sebsibe H/mariam",
+      ],
+      description: "Paper on Speech Recognition for Tigrinya language Using Deep Neural Network Approach",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W19-3603/",
+    }  ],
+      year: "2019",
+      content: "Paper",
+    },
+    {
+      id: 8,
+      title: "Design of a Tigrinya Language Speech Corpus for Speech Recognition",
+      creator: [
+        "Hafte Abera",
+        "Sebsibe H/Mariam",
+      ],
+      description: "Paper on Design of a Tigrinya Language Speech Corpus for Speech Recognition",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W18-3811/",
+    }  ],
+      year: "2018",
+      content: "Paper",
+    },
+    {
+      id: 9,
+      title: "Parser combinators for Tigrinya and {O}romo morphology",
+      creator: [
+        "Patrick Littell",
+        "Tom McCoy",
+        "Na-Rae Han",
+        "Shruti Rijhwani",
+        "Zaid Sheikh",
+        "David Mortensen",
+        "Teruko Mitamura",
+        "Lori Levin",
+      ],
+      description: "Paper on Parser combinators for Tigrinya and {O}romo morphology",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/L18-1611/",
+    }  ],
+      year: "2018",
+      content: "Paper",
+    },
+    {
+      id: 10,
+      title: "Stemming Tigrinya Words for Information Retrieval",
+      creator: [
+        "Omer Osman",
+        "Yoshiki Mikami",
+      ],
+      description: "Paper on Stemming Tigrinya Words for Information Retrieval",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/C12-3043/",
+    }  ],
+      year: "2012",
+      content: "Paper",
+    },
+    {
+      id: 11,
+      title: "Amharic-{E}nglish Speech Translation in Tourism Domain",
+      creator: [
+        "Michael Melese",
+        "Laurent Besacier",
+        "Million Meshesha",
+      ],
+      description: "Paper on Amharic-{E}nglish Speech Translation in Tourism Domain",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W17-4608/",
+    }  ],
+      year: "2017",
+      content: "Paper",
+    },
+    {
+      id: 12,
+      title: "Amharic Part-of-Speech Tagger for Factored Language Modeling",
+      creator: [
+        "Martha Yifiru Tachbelie",
+        "Wolfgang Menzel",
+      ],
+      description: "Paper on Amharic Part-of-Speech Tagger for Factored Language Modeling",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/R09-1077/",
+    }  ],
+      year: "2009",
+      content: "Paper",
+    },
+    {
+      id: 13,
+      title: "An Amharic Stemmer : Reducing Words to their Citation Forms",
+      creator: [
+        "Atelach Alemu Argaw",
+        "Lars Asker",
+      ],
+      description: "Paper on An Amharic Stemmer : Reducing Words to their Citation Forms",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W07-0814/",
+    }  ],
+      year: "2007",
+      content: "Paper",
+    },
+    {
+      id: 14,
+      title: "Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo",
+      creator: [
+        "Walelign Sewunetie",
+        "Atnafu Tonja",
+        "Tadesse Belay",
+        "Hellina Hailu Nigatu",
+        "Gashaw Gebremeskel",
+        "Zewdie Mossie",
+        "Hussien Seid",
+        "Seid Yimam",
+      ],
+      description: "Paper on Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2024.gitt-1.1/",
+    }  ],
+      year: "2024",
+      content: "Paper",
+    },
+    {
+      id: 15,
+      title: "Error Analysis of Multilingual Language Models in Machine Translation: A Case Study of {E}nglish-Amharic Translation",
+      creator: [
+        "Hizkiel Mitiku Alemayehu",
+        "Hamada M Zahera",
+        "Axel-Cyrille Ngonga Ngomo",
+      ],
+      description: "Paper on Error Analysis of Multilingual Language Models in Machine Translation: A Case Study of {E}nglish-Amharic Translation",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2024.emnlp-main.1102/",
+    }  ],
+      year: "2024",
+      content: "Paper",
+    },
+    {
+      id: 16,
+      title: "Exploring Amharic Hate Speech Data Collection and Classification Approaches",
+      creator: [
+        "Abinew Ali Ayele",
+        "Seid Muhie Yimam",
+        "Tadesse Destaw Belay",
+        "Tesfa Asfaw",
+        "Chris Biemann",
+      ],
+      description: "Paper on Exploring Amharic Hate Speech Data Collection and Classification Approaches",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2023.ranlp-1.6/",
+    }  ],
+      year: "2023",
+      content: "Paper",
+    },
+    {
+      id: 17,
+      title: "Question Answering Classification for Amharic Social Media Community Based Questions",
+      creator: [
+        "Tadesse Destaw Belay",
+        "Seid Muhie Yimam",
+        "Abinew Ayele",
+        "Chris Biemann",
+      ],
+      description: "Paper on Question Answering Classification for Amharic Social Media Community Based Questions",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2022.sigul-1.18/",
+    }  ],
+      year: "2022",
+      content: "Paper",
+    },
+    {
+      id: 18,
+      title: "Extended Parallel Corpus for Amharic-{E}nglish Machine Translation",
+      creator: [
+        "Andargachew Mekonnen Gezmu",
+        "Andreas N{\"u}rnberger",
+        "Tesfaye Bayu Bati",
+      ],
+      description: "Paper on Extended Parallel Corpus for Amharic-{E}nglish Machine Translation",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2022.lrec-1.716/",
+    }  ],
+      year: "2022",
+      content: "Paper",
+    },
+    {
+      id: 19,
+      title: "The Development of Pre-processing Tools and Pre-trained Embedding Models for Amharic",
+      creator: [
+        "Tadesse Destaw Belay",
+        "Abinew Ayele",
+        "Seid Muhie Yimam",
+      ],
+      description: "Paper on The Development of Pre-processing Tools and Pre-trained Embedding Models for Amharic",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2021.winlp-1.5/",
+    }  ],
+      year: "2021",
+      content: "Paper",
+    },
+    {
+      id: 20,
+      title: "Corpus based Amharic sentiment lexicon generation",
+      creator: [
+        "Girma Neshir Alemneh",
+        "Andreas Rauber",
+        "Solomon Atnafu",
+      ],
+      description: "Paper on Corpus based Amharic sentiment lexicon generation",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2020.winlp-1.1/",
+    }  ],
+      year: "2020",
+      content: "Paper",
+    },
+    {
+      id: 21,
+      title: "Negation handling for Amharic sentiment classification",
+      creator: [
+        "Girma Neshir Alemneh",
+        "Andreas Rauber",
+        "Solomon Atnafu",
+      ],
+      description: "Paper on Negation handling for Amharic sentiment classification",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2020.winlp-1.2/",
+    }  ],
+      year: "2020",
+      content: "Paper",
+    },
+    {
+      id: 22,
+      title: "Embedding Oriented Adaptable Semantic Annotation Framework for Amharic Web Documents",
+      creator: [
+        "Kidane Woldemariyam",
+        "Dr. Fekade Getahun",
+      ],
+      description: "Paper on Embedding Oriented Adaptable Semantic Annotation Framework for Amharic Web Documents",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2020.winlp-1.3/",
+    }  ],
+      year: "2020",
+      content: "Paper",
+    },
+    {
+      id: 23,
+      title: "Similarity and Farness Based Bidirectional Neural Co-Attention for Amharic Natural Language Inference",
+      creator: [
+        "Abebawu Eshetu",
+        "Getenesh Teshome",
+        "Ribka Alemayehu",
+      ],
+      description: "Paper on Similarity and Farness Based Bidirectional Neural Co-Attention for Amharic Natural Language Inference",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2020.winlp-1.4/",
+    }  ],
+      year: "2020",
+      content: "Paper",
+    },
+    {
+      id: 24,
+      title: "Large Vocabulary Read Speech Corpora for Four {E}thiopian Languages: Amharic, Tigrigna, {O}romo, and {W}olaytta",
+      creator: [
+        "Solomon Teferra Abate",
+        "Martha Yifiru Tachbelie",
+        "Michael Melese",
+        "Hafte Abera",
+        "Tewodros Gebreselassie",
+        "Wondwossen Mulugeta",
+        "Yaregal Assabie",
+        "Million Meshesha Beyene",
+        "Solomon Atinafu",
+        "Binyam Ephrem Seyoum",
+      ],
+      description: "Paper on Large Vocabulary Read Speech Corpora for Four {E}thiopian Languages: Amharic, Tigrigna, {O}romo, and {W}olaytta",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2020.winlp-1.5/",
+    }  ],
+      year: "2020",
+      content: "Paper",
+    },
+    {
+      id: 25,
+      title: "Transfer Learning for Less-Resourced {S}emitic Languages Speech Recognition: the Case of Amharic",
+      creator: [
+        "Yonas Woldemariam",
+      ],
+      description: "Paper on Transfer Learning for Less-Resourced {S}emitic Languages Speech Recognition: the Case of Amharic",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2020.sltu-1.9/",
+    }  ],
+      year: "2020",
+      content: "Paper",
+    },
+    {
+      id: 26,
+      title: "Adapting Language Specific Components of Cross-Media Analysis Frameworks to Less-Resourced Languages: the Case of Amharic",
+      creator: [
+        "Yonas Woldemariam",
+        "Adam Dahlgren",
+      ],
+      description: "Paper on Adapting Language Specific Components of Cross-Media Analysis Frameworks to Less-Resourced Languages: the Case of Amharic",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2020.sltu-1.42/",
+    }  ],
+      year: "2020",
+      content: "Paper",
+    },
+    {
+      id: 27,
+      title: "Comparing Neural Network Parsers for a Less-resourced and Morphologically-rich Language: Amharic Dependency Parser",
+      creator: [
+        "Binyam Ephrem Seyoum",
+        "Yusuke Miyao",
+        "Baye Yimam Mekonnen",
+      ],
+      description: "Paper on Comparing Neural Network Parsers for a Less-resourced and Morphologically-rich Language: Amharic Dependency Parser",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2020.rail-1.5/",
+    }  ],
+      year: "2020",
+      content: "Paper",
+    },
+    {
+      id: 28,
+      title: "Event Extraction from Unstructured Amharic Text",
+      creator: [
+        "Ephrem Tadesse",
+        "Rosa Tsegaye",
+        "Kuulaa Qaqqabaa",
+      ],
+      description: "Paper on Event Extraction from Unstructured Amharic Text",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2020.lrec-1.258/",
+    }  ],
+      year: "2020",
+      content: "Paper",
+    },
+    {
+      id: 29,
+      title: "Exploring Amharic Sentiment Analysis from Social Media Texts: Building Annotation Tools and Classification Models",
+      creator: [
+        "Seid Muhie Yimam",
+        "Hizkiel Mitiku Alemayehu",
+        "Abinew Ayele",
+        "Chris Biemann",
+      ],
+      description: "Paper on Exploring Amharic Sentiment Analysis from Social Media Texts: Building Annotation Tools and Classification Models",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2020.coling-main.91/",
+    }  ],
+      year: "2020",
+      content: "Paper",
+    },
+    {
+      id: 30,
+      title: "Amharic Word Sequence Prediction",
+      creator: [
+        "Nuniyat Kifle",
+      ],
+      description: "Paper on Amharic Word Sequence Prediction",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W19-3607/",
+    }  ],
+      year: "2019",
+      content: "Paper",
+    },
+    {
+      id: 31,
+      title: "Amharic Question Answering for Biography, Definition, and Description Questions",
+      creator: [
+        "Tilahun Abedissa Taffa",
+        "Mulugeta Libsie",
+      ],
+      description: "Paper on Amharic Question Answering for Biography, Definition, and Description Questions",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W19-3635/",
+    }  ],
+      year: "2019",
+      content: "Paper",
+    },
+    {
+      id: 32,
+      title: "Language Modelling with {NMT} Query Translation for Amharic-Arabic Cross-Language Information Retrieval",
+      creator: [
+        "Ibrahim Gashaw",
+        "H.l Shashirekha",
+      ],
+      description: "Paper on Language Modelling with {NMT} Query Translation for Amharic-Arabic Cross-Language Information Retrieval",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2019.icon-1.7/",
+    }  ],
+      year: "2019",
+      content: "Paper",
+    },
+    {
+      id: 33,
+      title: "Contemporary Amharic Corpus: Automatically Morpho-Syntactically Tagged Amharic Corpus",
+      creator: [
+        "Andargachew Mekonnen Gezmu",
+        "Binyam Ephrem Seyoum",
+        "Michael Gasser",
+        "Andreas N{\"u}rnberger",
+      ],
+      description: "Paper on Contemporary Amharic Corpus: Automatically Morpho-Syntactically Tagged Amharic Corpus",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W18-3809/",
+    }  ],
+      year: "2018",
+      content: "Paper",
+    },
+    {
+      id: 34,
+      title: "U}niversal {D}ependencies for Amharic",
+      creator: [
+        "Binyam Ephrem Seyoum",
+        "Yusuke Miyao",
+        "Baye Yimam Mekonnen",
+      ],
+      description: "Paper on U}niversal {D}ependencies for Amharic",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/L18-1350/",
+    }  ],
+      year: "2018",
+      content: "Paper",
+    },
+    {
+      id: 35,
+      title: "Machine Learning Approaches for Amharic Parts-of-speech Tagging",
+      creator: [
+        "Ibrahim Gashaw",
+        "H. L. Shashirekha",
+      ],
+      description: "Paper on Machine Learning Approaches for Amharic Parts-of-speech Tagging",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2018.icon-1.9/",
+    }  ],
+      year: "2018",
+      content: "Paper",
+    },
+    {
+      id: 36,
+      title: "The similarity and Mutual Intelligibility between Amharic and Tigrigna Varieties",
+      creator: [
+        "Tekabe Legesse Feleke",
+      ],
+      description: "Paper on The similarity and Mutual Intelligibility between Amharic and Tigrigna Varieties",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W17-1206/",
+    }  ],
+      year: "2017",
+      content: "Paper",
+    },
+    {
+      id: 37,
+      title: "Automatic Construction of Amharic Semantic Networks from Unstructured Text Using Amharic {W}ord{N}et",
+      creator: [
+        "Alelgn Tefera",
+        "Yaregal Assabie",
+      ],
+      description: "Paper on Automatic Construction of Amharic Semantic Networks from Unstructured Text Using Amharic {W}ord{N}et",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W14-0123/",
+    }  ],
+      year: "2014",
+      content: "Paper",
+    },
+    {
+      id: 38,
+      title: "Development of Amharic Grammar Checker Using Morphological Features of Words and N-Gram Based Probabilistic Methods",
+      creator: [
+        "Aynadis Temesgen",
+        "Yaregal Assabie",
+      ],
+      description: "Paper on Development of Amharic Grammar Checker Using Morphological Features of Words and N-Gram Based Probabilistic Methods",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W13-5712/",
+    }  ],
+      year: "2013",
+      content: "Paper",
+    },
+    {
+      id: 39,
+      title: "Analyse des performances de mod{\`e}les de langage sub-lexicale pour des langues peu-dot{\'e}es {\`a} morphologie riche (Performance analysis of sub-word language modeling for under-resourced languages with rich morphology: case study on {S}wahili and Amharic) [in {F}rench]",
+      creator: [
+        "Hadrien Gelas",
+        "Solomon Teferra Abate",
+        "Laurent Besacier",
+        "Fran{\c{c}}ois Pellegrino",
+      ],
+      description: "Paper on Analyse des performances de mod{\`e}les de langage sub-lexicale pour des langues peu-dot{\'e}es {\`a} morphologie riche (Performance analysis of sub-word language modeling for under-resourced languages with rich morphology: case study on {S}wahili and Amharic) [in {F}rench]",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W12-1305/",
+    }  ],
+      year: "2012",
+      content: "Paper",
+    },
+    {
+      id: 40,
+      title: "Development of an Amharic Text-to-Speech System Using Cepstral Method",
+      creator: [
+        "Tadesse Anberbir",
+        "Tomio Takara",
+      ],
+      description: "Paper on Development of an Amharic Text-to-Speech System Using Cepstral Method",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W09-0707/",
+    }  ],
+      year: "2009",
+      content: "Paper",
+    },
+    {
+      id: 41,
+      title: "Methods for Amharic Part-of-Speech Tagging",
+      creator: [
+        "Bj{\"o}rn Gamb{\"a}ck",
+        "Fredrik Olsson",
+        "Atelach Alemu Argaw",
+        "Lars Asker",
+      ],
+      description: "Paper on Methods for Amharic Part-of-Speech Tagging",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W09-0715/",
+    }  ],
+      year: "2009",
+      content: "Paper",
+    },
+    {
+      id: 42,
+      title: "Amharic Part-of-Speech Tagger for Factored Language Modeling",
+      creator: [
+        "Martha Yifiru Tachbelie",
+        "Wolfgang Menzel",
+      ],
+      description: "Paper on Amharic Part-of-Speech Tagger for Factored Language Modeling",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/R09-1077/",
+    }  ],
+      year: "2009",
+      content: "Paper",
+    },
+    {
+      id: 43,
+      title: "Syllable-Based Speech Recognition for Amharic",
+      creator: [
+        "Solomon Teferra Abate",
+        "Wolfgang Menzel",
+      ],
+      description: "Paper on Syllable-Based Speech Recognition for Amharic",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W07-0805/",
+    }  ],
+      year: "2007",
+      content: "Paper",
+    },
+    {
+      id: 44,
+      title: "An Amharic Stemmer : Reducing Words to their Citation Forms",
+      creator: [
+        "Atelach Alemu Argaw",
+        "Lars Asker",
+      ],
+      description: "Paper on An Amharic Stemmer : Reducing Words to their Citation Forms",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W07-0814/",
+    }  ],
+      year: "2007",
+      content: "Paper",
+    },
+    {
+      id: 45,
+      title: "Data-driven Amharic-{E}nglish Bilingual Lexicon Acquisition",
+      creator: [
+        "Saba Amsalu",
+      ],
+      description: "Paper on Data-driven Amharic-{E}nglish Bilingual Lexicon Acquisition",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/L06-1413/",
+    }  ],
+      year: "2006",
+      content: "Paper",
+    },
+    {
+      id: 46,
+      title: "Experimental detection of vowel pronunciation variants in Amharic",
+      creator: [
+        "Thomas Pellegrini",
+        "Lori Lamel",
+      ],
+      description: "Paper on Experimental detection of vowel pronunciation variants in Amharic",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/L06-1434/",
+    }  ],
+      year: "2006",
+      content: "Paper",
+    },
+    {
+      id: 47,
+      title: "Part of Speech Tagging for Amharic using Conditional Random Fields",
+      creator: [
+        "Sisay Fissaha Adafre",
+      ],
+      description: "Paper on Part of Speech Tagging for Amharic using Conditional Random Fields",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W05-0707/",
+    }  ],
+      year: "2005",
+      content: "Paper",
+    },
+    {
+      id: 48,
+      title: "Classifying Amharic News Text Using Self-Organizing Maps",
+      creator: [
+        "Samuel Eyassu",
+        "Bj{\"o}rn Gamb{\"a}ck",
+      ],
+      description: "Paper on Classifying Amharic News Text Using Self-Organizing Maps",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/W05-0710/",
+    }  ],
+      year: "2005",
+      content: "Paper",
+    },
+    {
+      id: 49,
+      title: "Formal analysis of some aspects of Amharic noun phrases",
+      creator: [
+        "Sisay Fissaha Adafre",
+      ],
+      description: "Paper on Formal analysis of some aspects of Amharic noun phrases",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2004.eamt-1.6/",
+    }  ],
+      year: "2004",
+      content: "Paper",
+    },
+    {
+      id: 50,
+      title: "Application of corpus-based techniques to Amharic texts",
+      creator: [
+        "Sisay Fissaha",
+        "Johann Haller",
+      ],
+      description: "Paper on Application of corpus-based techniques to Amharic texts",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2003.mtsummit-semit.7/",
+    }  ],
+      year: "2003",
+      content: "Paper",
+    },
+    {
+      id: 51,
+      title: "Cognate Detection for Historical Language Reconstruction of Proto-Sabean Languages: the Case of {G}e`ez, Tigrinya, and Amharic",
+      creator: [
+        "Elleni Sisay Temesgen",
+        "Hellina Hailu Nigatu",
+        "Fitsum Assamnew Andargie",
+      ],
+      description: "Paper on Cognate Detection for Historical Language Reconstruction of Proto-Sabean Languages: the Case of {G}e`ez, Tigrinya, and Amharic",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2025.coling-main.496/",
+    }  ],
+      year: "2025",
+      content: "Paper",
+    },
+    {
+      id: 52,
+      title: "Detecting Hate Speech in Amharic Using Multimodal Analysis of Social Media Memes",
+      creator: [
+        "Melese Ayichlie Jigar",
+        "Abinew Ali Ayele",
+        "Seid Muhie Yimam",
+        "Chris Biemann",
+      ],
+      description: "Paper on Detecting Hate Speech in Amharic Using Multimodal Analysis of Social Media Memes",
+      featured: false,
+      domain: [
+        "General",
+        "Education",
+      ],
+      category: [
+        "Paper",
+      ],
+      field: "NLP",
+      links: [
+    {
+        id: 1,
+        name: "ACL Anthology",
+        link: "https://aclanthology.org/2024.trac-1.10/",
+    }  ],
+      year: "2024",
+      content: "Paper",
+    },
+    ];
+    
 
   
   
