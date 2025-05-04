@@ -14,12 +14,12 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ethio Models Hub | Ethiopian NLP, AI Models, and Datasets",
+  title: "Ethiopian AI and ML Resource Hub",
   description:
     "Explore Ethiopian-related NLP models, AI models, Amharic, Tigrinya, and Oromo datasets. Discover the best research and models in Ethiopia for Machine Learning and AI applications.",
   keywords:
     "Ethiopian models, Ethio NLP, AI models in Ethiopia, best researches in Ethiopia, dataset in Ethiopia, Amharic dataset, Tigrinya dataset, Oromo dataset, Ethiopian AI models",
-  robots: "index, follow", // Ensure the page can be crawled and indexed by search engines
+  robots: "index, follow", 
 };
 
 export default function RootLayout({

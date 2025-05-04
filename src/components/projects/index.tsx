@@ -5,9 +5,12 @@ import Card from "@/utils/ui/Card";
 import SearchBar from "../search-bar";
 import { FilterOptionsTypes, ProjectType } from "@/utils/types";
 
-const projects = originalProjects.map((project, index) => ({
+const projects: ProjectType[] = originalProjects.map((project, index) => ({
   ...project,
   id: index + 1,
+  links: project.links || [], // Ensure 'links' is always defined
+  year: project.year || "", // Ensure 'year' is always defined
+  field: Array.isArray(project.field) ? project.field.join(", ") : project.field || "", // Convert 'field' to a string
 }));
 
 const Projects = () => {
@@ -25,37 +28,13 @@ const Projects = () => {
 
   useEffect(() => {
     const query = searchQuery.toLowerCase();
-    const results = projects.filter((project) => {
+    const filtered = projects.filter((project) => {
       const matchesTitle = project.title.toLowerCase().includes(query);
       const matchesField = project.field?.toLowerCase().includes(query) ?? false;
       const matchesCreator = project.creator?.some((author) =>
-        author.toLowerCase().includes(query)
-      ) ?? false;
-      const matchesDomain = project.domain?.some((domainItem) =>
-        domainItem.toLowerCase().includes(query)
-      ) ?? false;
-      const matchesCategory = project.category?.some((categoryItem) =>
-        categoryItem.toLowerCase().includes(query)
-      ) ?? false;
-
-      return (
-        matchesTitle ||
-        matchesField ||
-        matchesCreator ||
-        matchesDomain ||
-        matchesCategory
-      );
-    });
-    setFilteredProjects(results);
-  }, [searchQuery]);
-
-  useEffect(() => {
-    const query = searchQuery.toLowerCase();
-    const results = projects.filter((project) => {
-      const matchesTitle = project.title.toLowerCase().includes(query);
-      const matchesField = project.field?.toLowerCase().includes(query) ?? false;
-      const matchesCreator = project.creator?.some((author) =>
-        author.toLowerCase().includes(query)
+        typeof author === "string"
+          ? author.toLowerCase().includes(query)
+          : author.name.toLowerCase().includes(query)
       ) ?? false;
       const matchesDomain = project.domain?.some((domainItem) =>
         domainItem.toLowerCase().includes(query)
@@ -92,8 +71,8 @@ const Projects = () => {
       return matchesSearch && matchesContents && matchesFields && matchesDomains;
     });
 
-    setFilteredProjects(results);
-  }, [checkedFilters, searchQuery]);
+    setFilteredProjects(filtered);
+  }, [searchQuery, checkedFilters]);
 
   return (
     <div className="w-full space-y-5">
@@ -109,9 +88,10 @@ const Projects = () => {
             <Card key={project.id} project={project} />
           ))
         ) : (
-          <div className="w-full py-24">
-            <p className="opacity-65 text-2xl">No results found!</p>
+          <div className="w-full h-[50vh] flex items-center justify-center">
+            <p className="text-2xl text-white/60">No results found!</p>
           </div>
+
         )}
       </div>
     </div>
