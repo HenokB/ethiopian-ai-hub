@@ -16,12 +16,7 @@ body {
   justify-content: start;
   -webkit-font-smoothing: antialiased;
   color: var(--foreground);
-  background: radial-gradient(
-      circle at 50% 20%,
-      rgba(120, 160, 255, 0.07),
-      transparent 70%
-    ),
-    linear-gradient(to bottom right, #0f172a, #1e293b, #0f172a);
+ 
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
   background-attachment: fixed;
   background-repeat: no-repeat;

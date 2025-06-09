@@ -2,7 +2,7 @@ import Projects from "@/components/projects";
 
 export default function Home() {
   return (
-    <div className="w-full sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[65%] p-6 space-y-8 font-[family-name:var(--font-geist-sans)] text-gray-900 dark:text-white">
+    <div className="w-full  sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[65%] p-6 space-y-8 font-[family-name:var(--font-geist-sans)] text-gray-900 dark:text-white">
 
       <div className="w-full pb-4 border-b border-gray-700 text-start">
         {/* Title + Star button */}

@@ -82,7 +82,7 @@ const Projects = () => {
         value={searchQuery}
         onChange={onChangeSearchQuery}
       />
-      <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 gap-5">
+      <div className="w-full grid gap-5">
         {filteredProjects.length > 0 ? (
           filteredProjects.map((project) => (
             <Card key={project.id} project={project} />
