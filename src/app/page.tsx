@@ -1,4 +1,5 @@
 import Projects from "@/components/projects";
+import { Suspense } from "react";
 
 export default function Home() {
   return (
@@ -27,7 +28,9 @@ export default function Home() {
       </div>
 
       {/* Projects */}
-      <Projects />
+      <Suspense>
+        <Projects  />
+      </Suspense>
     </div>
   );
 }
