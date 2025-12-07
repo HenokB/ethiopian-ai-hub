@@ -50,7 +50,7 @@ export const companies: CompanyType[] = [
     name: "iCog",
     area: "AI, Education, Speech Datasets",
     description: "AI-powered solutions for businesses in Ethiopia",
-    website: "https://icog-labs.com",
+    website: "https://icogacc.com/",
   },
   {
     id: 7,
