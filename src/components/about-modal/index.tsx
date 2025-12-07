@@ -91,14 +91,14 @@ const AboutModal = () => {
                   <p className="text-[#86868b] leading-relaxed">
                     This project is maintained by{" "}
                     <a
-                      href="https://github.com/HenokB"
+                      href="https://henokb.github.io"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-[#800020] hover:underline font-medium"
                     >
-                      HenokB
+                      Henok Ademtew.
                     </a>
-                    {" "}and the community.
+                    
                   </p>
                 </div>
 
