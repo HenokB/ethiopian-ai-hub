@@ -79,7 +79,7 @@ const AboutModal = () => {
                   <p className="text-[#86868b] leading-relaxed">
                     A comprehensive resource hub for discovering machine learning models, datasets, and research papers
                     related to Ethiopian languages. This platform serves developers, researchers, and AI enthusiasts
-                    working with Amharic, Tigrinya, Oromo, and other Ethiopian languages.
+                    working with Amharic, Tigrinya, Afaan Oromoo, Ge&apos;ez, Somali, Afar, Gurage, Wolayta, Harari, and other Ethiopian languages.
                   </p>
                 </div>
 

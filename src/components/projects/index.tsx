@@ -58,7 +58,6 @@ const Projects = () => {
   }, [filteredProjects, currentPage]);
 
   const hasMore = displayedProjects.length < filteredProjects.length;
-  const totalPages = Math.ceil(filteredProjects.length / ITEMS_PER_PAGE);
 
   const handleLoadMore = () => {
     setCurrentPage((prev) => prev + 1);

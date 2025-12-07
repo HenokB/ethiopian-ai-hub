@@ -140,7 +140,7 @@ const Sidebar = () => {
                         <ul className="space-y-1">
                           {huggingFaceModels.slice(0, 20).map((model) => {
                             // Hugging Face items have a direct 'link' field
-                            const hfLink = (model as any).link || model.links?.find((l: any) => 
+                            const hfLink = model.link || model.links?.find((l) => 
                               l.link?.includes('huggingface.co') || l.name?.toLowerCase().includes('huggingface') || l.name?.toLowerCase().includes('hugging face')
                             )?.link || "#";
                             return (
@@ -176,7 +176,7 @@ const Sidebar = () => {
                         <ul className="space-y-1">
                           {huggingFaceDatasets.slice(0, 20).map((dataset) => {
                             // Hugging Face items have a direct 'link' field
-                            const hfLink = (dataset as any).link || dataset.links?.find((l: any) => 
+                            const hfLink = dataset.link || dataset.links?.find((l) => 
                               l.link?.includes('huggingface.co') || l.name?.toLowerCase().includes('huggingface') || l.name?.toLowerCase().includes('hugging face')
                             )?.link || "#";
                             return (

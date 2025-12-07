@@ -7,11 +7,12 @@ export const getHuggingFaceItems = (): ProjectType[] => {
       // Handle Hugging Face items which might have a direct 'link' field
       const links = project.links || [];
       // If project has a direct 'link' field (Hugging Face items), add it to links
-      if ((project as any).link && !links.find((l: any) => l.link === (project as any).link)) {
+      const projectWithLink = project as ProjectType & { link?: string };
+      if (projectWithLink.link && !links.find((l) => l.link === projectWithLink.link)) {
         links.push({
           id: links.length + 1,
           name: "Hugging Face",
-          link: (project as any).link,
+          link: projectWithLink.link,
         });
       }
       
