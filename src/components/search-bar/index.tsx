@@ -1,46 +1,37 @@
-import { FilterOptionsTypes } from "@/utils/types";
-import Dropdown from "@/utils/ui/Dropdown";
-import { Dispatch, SetStateAction } from "react";
-
 type SearchBarProps = {
   value: string;
-  checkedFilters: FilterOptionsTypes;
-  setCheckedFilters: Dispatch<SetStateAction<FilterOptionsTypes>>;
   onChange: (value: string) => void;
 };
 
 const SearchBar = ({
   value,
-  checkedFilters,
-  setCheckedFilters,
   onChange,
 }: SearchBarProps) => {
   return (
-    <div className="w-full  block md:flex items-center space-y-3 md:space-x-5 md:justify-between md:space-y-0 py-3">
-      {/* <SearchInput /> */}
-      <form className="w-full h-full flex items-center md:max-w-sm">
-        <div className="relative w-full">
+    <div className="w-full py-2">
+      <form className="w-full flex items-center">
+        <div className="relative w-full max-w-2xl mx-auto">
           <input
             name="searchbar"
             value={value}
             onChange={(e) => onChange(e.target.value)}
             type="text"
             id="voice-search"
-            className="border rounded-lg focus:border-gray-400 block w-full p-2.5 bg-transparent dark:focus:outline-none"
-            placeholder="Search datasets, models and papers..."
+            className="border border-[#d2d2d7] rounded-2xl focus:border-[#800020] focus:ring-2 focus:ring-[#800020]/20 block w-full px-6 py-4 bg-white text-[#1d1d1f] placeholder:text-[#86868b] text-base transition-all duration-200 outline-none shadow-sm"
+            placeholder="Search by authors, datasets, models papers..."
             required
           />
           <button
             type="button"
-            className="absolute inset-y-0 end-0 flex items-center pe-3"
+            className="absolute inset-y-0 end-0 flex items-center pe-5"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              strokeWidth={1.5}
+              strokeWidth={2}
               stroke="currentColor"
-              className="w-4 h-4 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
+              className="w-5 h-5 text-[#86868b]"
             >
               <path
                 strokeLinecap="round"
@@ -51,11 +42,6 @@ const SearchBar = ({
           </button>
         </div>
       </form>
-
-      <Dropdown
-        checkedFilters={checkedFilters}
-        setCheckedFilters={setCheckedFilters}
-      />
     </div>
   );
 };

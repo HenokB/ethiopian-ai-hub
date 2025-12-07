@@ -64,14 +64,14 @@ function BadgeButton({
   return (
     <button
       type="button"
-      className={`flex items-center gap-2 text-xs px-3 py-1 rounded-full font-medium backdrop-blur-sm border transition cursor-pointer ${
+      className={`flex items-center gap-2 text-xs px-3 py-1.5 rounded-full font-medium border transition-all duration-200 cursor-pointer active:scale-95 ${
         isSelected ? selectedClassName : unselectedClassName
       } 
         ${className}`}
       onClick={onToggle}
     >
       {children ? children : value}
-      {isSelected && <span className="ml-2 text-white font-bold">✓</span>}
+      {isSelected && <span className="ml-1 text-xs font-semibold">✓</span>}
     </button>
   );
 }

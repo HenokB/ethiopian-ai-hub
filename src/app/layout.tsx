@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ethiopian AI and ML Resource Hub",
+  title: "Ethiopian AI/ML Resource Hub",
   description:
     "Explore Ethiopian-related NLP models, AI models, Amharic, Tigrinya, and Oromo datasets. Discover the best research and models in Ethiopia for Machine Learning and AI applications.",
   keywords:
@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`w-full bg-[#191924] flex flex-row justify-center min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`w-full bg-white min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
