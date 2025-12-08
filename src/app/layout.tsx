@@ -16,9 +16,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Ethiopian AI/ML Resource Hub",
   description:
-    "Explore Ethiopian-related NLP models, AI models, Amharic, Tigrinya, and Oromo datasets. Discover the best research and models in Ethiopia for Machine Learning and AI applications.",
+    "Explore Ethiopian-related NLP models, AI models, Amharic, Tigrinya, and Afan Oromo datasets. Discover the best research and models in Ethiopia for Machine Learning and AI applications.",
   keywords:
-    "Ethiopian models, Ethio NLP, AI models in Ethiopia, best researches in Ethiopia, dataset in Ethiopia, Amharic dataset, Tigrinya dataset, Oromo dataset, Ethiopian AI models",
+    "Ethiopian models, Ethio NLP, AI models in Ethiopia, best researches in Ethiopia, dataset in Ethiopia, Amharic dataset, Tigrinya dataset, Afan Oromo dataset, Ethiopian AI models",
   robots: "index, follow", 
 };
 

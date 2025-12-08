@@ -73,5 +73,12 @@ export const companies: CompanyType[] = [
     description: "Hasab AI is a company that provides speech recognition services for Ethiopian languages",
     website: "https://hasab.ai",
   },
+  {
+    id: 10,
+    name: "Chapa AI ",
+    area: "AI Research ",
+    description: "Research team of Chapa Financial Technologies",
+    website: "https://ai.chapa.co/",
+  }
 ];
 

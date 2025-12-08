@@ -1051,14 +1051,14 @@ export const projects = [
   },
   {
     id: 32,
-    title: "Sagalee: an Open Source Automatic Speech Recognition Dataset for Oromo Language",
+    title: "Sagalee: an Open Source Automatic Speech Recognition Dataset for Afan Oromo Language",
     creator: [
       "Turi Abu",
       "Ying Shi",
       "Thomas Fang Zheng",
       "Dong Wang",
     ],
-    description: "Paper on Sagalee: an Open Source Automatic Speech Recognition Dataset for Oromo Language",
+    description: "Paper on Sagalee: an Open Source Automatic Speech Recognition Dataset for Afan Oromo Language",
     featured: true,
     domain: [
       "General",
@@ -1079,11 +1079,11 @@ export const projects = [
   },
   {
     id: 33,
-    title: "The effects of having lists of synonyms on the performance of Afaan Oromo Text Retrieval system",
+    title: "The effects of having lists of synonyms on the performance of Afaan Afan Oromo Text Retrieval system",
     creator: [
       "Isayas Wakgari Kelbessa",
     ],
-    description: "Paper on The effects of having lists of synonyms on the performance of Afaan Oromo Text Retrieval system",
+    description: "Paper on The effects of having lists of synonyms on the performance of Afaan Afan Oromo Text Retrieval system",
     featured: true,
     domain: [
       "General",
@@ -1104,7 +1104,7 @@ export const projects = [
   },
   {
     id: 34,
-    title: "Crowdsourcing Parallel Corpus for English-Oromo Neural Machine Translation using Community Engagement Platform",
+    title: "Crowdsourcing Parallel Corpus for English-Afan Oromo Neural Machine Translation using Community Engagement Platform",
     creator: [
       "Sisay Chala",
       "Bekele Debisa",
@@ -1113,7 +1113,7 @@ export const projects = [
       "Chala Getu",
       "Solomon Shiferaw",
     ],
-    description: "Paper on Crowdsourcing Parallel Corpus for English-Oromo Neural Machine Translation using Community Engagement Platform",
+    description: "Paper on Crowdsourcing Parallel Corpus for English-Afan Oromo Neural Machine Translation using Community Engagement Platform",
     featured: true,
     domain: [
       "General",
@@ -1955,7 +1955,7 @@ export const projects = [
     },
     {
       id: 14,
-      title: "Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo",
+      title: "Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Afan Oromoo",
       creator: [
         "Walelign Sewunetie",
         "Atnafu Tonja",
@@ -1966,7 +1966,7 @@ export const projects = [
         "Hussien Seid",
         "Seid Yimam",
       ],
-      description: "Paper on Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo",
+      description: "Paper on Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Afan Oromoo",
       featured: true,
       domain: [
         "General",
@@ -11780,14 +11780,14 @@ export const projects = [
       },
       {
         id: 343,
-        title: "amharic-oromo_sentence-pairs",
+        title: "amharic-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/amharic-oromo_sentence-pairs",
-        paper_title: "amharic-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/amharic-Afan Oromo_sentence-pairs",
+        paper_title: "amharic-Afan Oromo_sentence-pairs",
         downloads_total: 35,
       
         last_modified: "2025-04-03 12:17:08+00:00",
@@ -14402,14 +14402,14 @@ export const projects = [
       },
       {
         id: 449,
-        title: "RTechs-Oromo-RVC-Datamodel",
+        title: "RTechs-Afan Oromo-RVC-Datamodel",
         creator: [
       {
           name: "RO-Rtechs",
           profile: "https://huggingface.co/RO-Rtechs",
       }  ],
-        link: "https://huggingface.co/RO-Rtechs/RTechs-Oromo-RVC-Datamodel",
-        paper_title: "RTechs-Oromo-RVC-Datamodel",
+        link: "https://huggingface.co/RO-Rtechs/RTechs-Afan Oromo-RVC-Datamodel",
+        paper_title: "RTechs-Afan Oromo-RVC-Datamodel",
         downloads_total: 0,
       
         last_modified: "None",
@@ -14421,14 +14421,14 @@ export const projects = [
       },
       {
         id: 450,
-        title: "oromo",
+        title: "Afan Oromo",
         creator: [
       {
           name: "lfperez10",
           profile: "https://huggingface.co/lfperez10",
       }  ],
-        link: "https://huggingface.co/lfperez10/oromo",
-        paper_title: "oromo",
+        link: "https://huggingface.co/lfperez10/Afan Oromo",
+        paper_title: "Afan Oromo",
         downloads_total: 0,
       
         last_modified: "None",
@@ -14440,14 +14440,14 @@ export const projects = [
       },
       {
         id: 451,
-        title: "oromo-bible-chatbot",
+        title: "Afan Oromo-bible-chatbot",
         creator: [
       {
           name: "jigsa",
           profile: "https://huggingface.co/jigsa",
       }  ],
-        link: "https://huggingface.co/jigsa/oromo-bible-chatbot",
-        paper_title: "oromo-bible-chatbot",
+        link: "https://huggingface.co/jigsa/Afan Oromo-bible-chatbot",
+        paper_title: "Afan Oromo-bible-chatbot",
         downloads_total: 0,
       
         last_modified: "None",
@@ -14459,14 +14459,14 @@ export const projects = [
       },
       {
         id: 452,
-        title: "OROMO_100_HOUR_DATASET",
+        title: "Afan Oromo_100_HOUR_DATASET",
         creator: [
       {
           name: "KYAGABA",
           profile: "https://huggingface.co/KYAGABA",
       }  ],
-        link: "https://huggingface.co/datasets/KYAGABA/OROMO_100_HOUR_DATASET",
-        paper_title: "OROMO_100_HOUR_DATASET",
+        link: "https://huggingface.co/datasets/KYAGABA/Afan Oromo_100_HOUR_DATASET",
+        paper_title: "Afan Oromo_100_HOUR_DATASET",
         downloads_total: 125,
       
         last_modified: "2025-02-15 14:53:33+00:00",
@@ -14485,14 +14485,14 @@ export const projects = [
       },
       {
         id: 453,
-        title: "alpaca-oromo-cleaned",
+        title: "alpaca-Afan Oromo-cleaned",
         creator: [
       {
           name: "saillab",
           profile: "https://huggingface.co/saillab",
       }  ],
-        link: "https://huggingface.co/datasets/saillab/alpaca-oromo-cleaned",
-        paper_title: "alpaca-oromo-cleaned",
+        link: "https://huggingface.co/datasets/saillab/alpaca-Afan Oromo-cleaned",
+        paper_title: "alpaca-Afan Oromo-cleaned",
         downloads_total: 66,
       
         last_modified: "2024-09-20 23:32:28+00:00",
@@ -14511,14 +14511,14 @@ export const projects = [
       },
       {
         id: 454,
-        title: "dinka-oromo_sentence-pairs",
+        title: "dinka-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/dinka-oromo_sentence-pairs",
-        paper_title: "dinka-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/dinka-Afan Oromo_sentence-pairs",
+        paper_title: "dinka-Afan Oromo_sentence-pairs",
         downloads_total: 44,
       
         last_modified: "2025-04-02 13:40:35+00:00",
@@ -14536,14 +14536,14 @@ export const projects = [
       },
       {
         id: 455,
-        title: "afaan_oromo_dataset",
+        title: "afaan_Afan Oromo_dataset",
         creator: [
       {
           name: "KYAGABA",
           profile: "https://huggingface.co/KYAGABA",
       }  ],
-        link: "https://huggingface.co/datasets/KYAGABA/afaan_oromo_dataset",
-        paper_title: "afaan_oromo_dataset",
+        link: "https://huggingface.co/datasets/KYAGABA/afaan_Afan Oromo_dataset",
+        paper_title: "afaan_Afan Oromo_dataset",
         downloads_total: 36,
       
         last_modified: "2025-03-25 10:48:50+00:00",
@@ -14562,14 +14562,14 @@ export const projects = [
       },
       {
         id: 456,
-        title: "oromo-wolof_sentence-pairs",
+        title: "Afan Oromo-wolof_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-wolof_sentence-pairs",
-        paper_title: "oromo-wolof_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-wolof_sentence-pairs",
+        paper_title: "Afan Oromo-wolof_sentence-pairs",
         downloads_total: 36,
       
         last_modified: "2025-03-30 20:08:42+00:00",
@@ -14587,14 +14587,14 @@ export const projects = [
       },
       {
         id: 457,
-        title: "nuer-oromo_sentence-pairs",
+        title: "nuer-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/nuer-oromo_sentence-pairs",
-        paper_title: "nuer-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/nuer-Afan Oromo_sentence-pairs",
+        paper_title: "nuer-Afan Oromo_sentence-pairs",
         downloads_total: 36,
       
         last_modified: "2025-03-30 20:01:22+00:00",
@@ -14612,14 +14612,14 @@ export const projects = [
       },
       {
         id: 458,
-        title: "kinyarwanda-oromo_sentence-pairs",
+        title: "kinyarwanda-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/kinyarwanda-oromo_sentence-pairs",
-        paper_title: "kinyarwanda-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/kinyarwanda-Afan Oromo_sentence-pairs",
+        paper_title: "kinyarwanda-Afan Oromo_sentence-pairs",
         downloads_total: 36,
       
         last_modified: "2025-03-30 19:44:56+00:00",
@@ -14637,14 +14637,14 @@ export const projects = [
       },
       {
         id: 459,
-        title: "pedi-oromo_sentence-pairs",
+        title: "pedi-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/pedi-oromo_sentence-pairs",
-        paper_title: "pedi-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/pedi-Afan Oromo_sentence-pairs",
+        paper_title: "pedi-Afan Oromo_sentence-pairs",
         downloads_total: 35,
       
         last_modified: "2025-03-30 20:10:07+00:00",
@@ -14662,14 +14662,14 @@ export const projects = [
       },
       {
         id: 460,
-        title: "oromo-tigrinya_sentence-pairs",
+        title: "Afan Oromo-tigrinya_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-tigrinya_sentence-pairs",
-        paper_title: "oromo-tigrinya_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-tigrinya_sentence-pairs",
+        paper_title: "Afan Oromo-tigrinya_sentence-pairs",
         downloads_total: 35,
       
         last_modified: "2025-03-30 20:07:09+00:00",
@@ -14687,14 +14687,14 @@ export const projects = [
       },
       {
         id: 461,
-        title: "oromo-somali_sentence-pairs",
+        title: "Afan Oromo-somali_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-somali_sentence-pairs",
-        paper_title: "oromo-somali_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-somali_sentence-pairs",
+        paper_title: "Afan Oromo-somali_sentence-pairs",
         downloads_total: 35,
       
         last_modified: "2025-03-30 20:06:29+00:00",
@@ -14712,14 +14712,14 @@ export const projects = [
       },
       {
         id: 462,
-        title: "hausa-oromo_sentence-pairs",
+        title: "hausa-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/hausa-oromo_sentence-pairs",
-        paper_title: "hausa-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/hausa-Afan Oromo_sentence-pairs",
+        paper_title: "hausa-Afan Oromo_sentence-pairs",
         downloads_total: 35,
       
         last_modified: "2025-04-02 10:39:37+00:00",
@@ -14737,14 +14737,14 @@ export const projects = [
       },
       {
         id: 463,
-        title: "dyula-oromo_sentence-pairs",
+        title: "dyula-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/dyula-oromo_sentence-pairs",
-        paper_title: "dyula-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/dyula-Afan Oromo_sentence-pairs",
+        paper_title: "dyula-Afan Oromo_sentence-pairs",
         downloads_total: 35,
       
         last_modified: "2025-04-02 13:06:45+00:00",
@@ -14762,14 +14762,14 @@ export const projects = [
       },
       {
         id: 464,
-        title: "chichewa-oromo_sentence-pairs",
+        title: "chichewa-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/chichewa-oromo_sentence-pairs",
-        paper_title: "chichewa-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/chichewa-Afan Oromo_sentence-pairs",
+        paper_title: "chichewa-Afan Oromo_sentence-pairs",
         downloads_total: 35,
       
         last_modified: "2025-04-03 10:45:06+00:00",
@@ -14787,14 +14787,14 @@ export const projects = [
       },
       {
         id: 465,
-        title: "bambara-oromo_sentence-pairs",
+        title: "bambara-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/bambara-oromo_sentence-pairs",
-        paper_title: "bambara-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/bambara-Afan Oromo_sentence-pairs",
+        paper_title: "bambara-Afan Oromo_sentence-pairs",
         downloads_total: 35,
       
         last_modified: "2025-04-03 11:39:27+00:00",
@@ -14812,14 +14812,14 @@ export const projects = [
       },
       {
         id: 466,
-        title: "amharic-oromo_sentence-pairs",
+        title: "amharic-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/amharic-oromo_sentence-pairs",
-        paper_title: "amharic-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/amharic-Afan Oromo_sentence-pairs",
+        paper_title: "amharic-Afan Oromo_sentence-pairs",
         downloads_total: 35,
       
         last_modified: "2025-04-03 12:17:08+00:00",
@@ -14837,14 +14837,14 @@ export const projects = [
       },
       {
         id: 467,
-        title: "akan-oromo_sentence-pairs",
+        title: "akan-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/akan-oromo_sentence-pairs",
-        paper_title: "akan-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/akan-Afan Oromo_sentence-pairs",
+        paper_title: "akan-Afan Oromo_sentence-pairs",
         downloads_total: 35,
       
         last_modified: "2025-04-03 12:55:22+00:00",
@@ -14862,14 +14862,14 @@ export const projects = [
       },
       {
         id: 468,
-        title: "oromo-xhosa_sentence-pairs",
+        title: "Afan Oromo-xhosa_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-xhosa_sentence-pairs",
-        paper_title: "oromo-xhosa_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-xhosa_sentence-pairs",
+        paper_title: "Afan Oromo-xhosa_sentence-pairs",
         downloads_total: 34,
       
         last_modified: "2025-03-30 20:08:55+00:00",
@@ -14887,14 +14887,14 @@ export const projects = [
       },
       {
         id: 469,
-        title: "oromo-tumbuka_sentence-pairs",
+        title: "Afan Oromo-tumbuka_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-tumbuka_sentence-pairs",
-        paper_title: "oromo-tumbuka_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-tumbuka_sentence-pairs",
+        paper_title: "Afan Oromo-tumbuka_sentence-pairs",
         downloads_total: 34,
       
         last_modified: "2025-03-30 20:07:51+00:00",
@@ -14912,14 +14912,14 @@ export const projects = [
       },
       {
         id: 470,
-        title: "oromo-tswana_sentence-pairs",
+        title: "Afan Oromo-tswana_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-tswana_sentence-pairs",
-        paper_title: "oromo-tswana_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-tswana_sentence-pairs",
+        paper_title: "Afan Oromo-tswana_sentence-pairs",
         downloads_total: 34,
       
         last_modified: "2025-03-30 20:07:40+00:00",
@@ -14937,14 +14937,14 @@ export const projects = [
       },
       {
         id: 471,
-        title: "oromo-swahili_sentence-pairs",
+        title: "Afan Oromo-swahili_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-swahili_sentence-pairs",
-        paper_title: "oromo-swahili_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-swahili_sentence-pairs",
+        paper_title: "Afan Oromo-swahili_sentence-pairs",
         downloads_total: 34,
       
         last_modified: "2025-03-30 20:06:44+00:00",
@@ -14962,14 +14962,14 @@ export const projects = [
       },
       {
         id: 472,
-        title: "oromo-shona_sentence-pairs",
+        title: "Afan Oromo-shona_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-shona_sentence-pairs",
-        paper_title: "oromo-shona_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-shona_sentence-pairs",
+        paper_title: "Afan Oromo-shona_sentence-pairs",
         downloads_total: 34,
       
         last_modified: "2025-03-30 20:05:37+00:00",
@@ -14987,14 +14987,14 @@ export const projects = [
       },
       {
         id: 473,
-        title: "oromo-rundi_sentence-pairs",
+        title: "Afan Oromo-rundi_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-rundi_sentence-pairs",
-        paper_title: "oromo-rundi_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-rundi_sentence-pairs",
+        paper_title: "Afan Oromo-rundi_sentence-pairs",
         downloads_total: 34,
       
         last_modified: "2025-03-30 20:05:24+00:00",
@@ -15012,14 +15012,14 @@ export const projects = [
       },
       {
         id: 474,
-        title: "kimbundu-oromo_sentence-pairs",
+        title: "kimbundu-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/kimbundu-oromo_sentence-pairs",
-        paper_title: "kimbundu-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/kimbundu-Afan Oromo_sentence-pairs",
+        paper_title: "kimbundu-Afan Oromo_sentence-pairs",
         downloads_total: 34,
       
         last_modified: "2025-03-30 19:38:19+00:00",
@@ -15037,14 +15037,14 @@ export const projects = [
       },
       {
         id: 475,
-        title: "kikuyu-oromo_sentence-pairs",
+        title: "kikuyu-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/kikuyu-oromo_sentence-pairs",
-        paper_title: "kikuyu-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/kikuyu-Afan Oromo_sentence-pairs",
+        paper_title: "kikuyu-Afan Oromo_sentence-pairs",
         downloads_total: 34,
       
         last_modified: "2025-03-31 07:06:38+00:00",
@@ -15062,14 +15062,14 @@ export const projects = [
       },
       {
         id: 476,
-        title: "kamba-oromo_sentence-pairs",
+        title: "kamba-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/kamba-oromo_sentence-pairs",
-        paper_title: "kamba-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/kamba-Afan Oromo_sentence-pairs",
+        paper_title: "kamba-Afan Oromo_sentence-pairs",
         downloads_total: 34,
       
         last_modified: "2025-03-31 07:33:35+00:00",
@@ -15087,14 +15087,14 @@ export const projects = [
       },
       {
         id: 477,
-        title: "igbo-oromo_sentence-pairs",
+        title: "igbo-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/igbo-oromo_sentence-pairs",
-        paper_title: "igbo-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/igbo-Afan Oromo_sentence-pairs",
+        paper_title: "igbo-Afan Oromo_sentence-pairs",
         downloads_total: 34,
       
         last_modified: "2025-04-02 10:11:11+00:00",
@@ -15112,14 +15112,14 @@ export const projects = [
       },
       {
         id: 478,
-        title: "oromo-yoruba_sentence-pairs",
+        title: "Afan Oromo-yoruba_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-yoruba_sentence-pairs",
-        paper_title: "oromo-yoruba_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-yoruba_sentence-pairs",
+        paper_title: "Afan Oromo-yoruba_sentence-pairs",
         downloads_total: 33,
       
         last_modified: "2025-03-30 20:09:11+00:00",
@@ -15137,14 +15137,14 @@ export const projects = [
       },
       {
         id: 479,
-        title: "oromo-umbundu_sentence-pairs",
+        title: "Afan Oromo-umbundu_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-umbundu_sentence-pairs",
-        paper_title: "oromo-umbundu_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-umbundu_sentence-pairs",
+        paper_title: "Afan Oromo-umbundu_sentence-pairs",
         downloads_total: 33,
       
         last_modified: "2025-03-30 20:08:26+00:00",
@@ -15162,14 +15162,14 @@ export const projects = [
       },
       {
         id: 480,
-        title: "lingala-oromo_sentence-pairs",
+        title: "lingala-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/lingala-oromo_sentence-pairs",
-        paper_title: "lingala-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/lingala-Afan Oromo_sentence-pairs",
+        paper_title: "lingala-Afan Oromo_sentence-pairs",
         downloads_total: 33,
       
         last_modified: "2025-03-30 19:56:22+00:00",
@@ -15187,14 +15187,14 @@ export const projects = [
       },
       {
         id: 481,
-        title: "kongo-oromo_sentence-pairs",
+        title: "kongo-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/kongo-oromo_sentence-pairs",
-        paper_title: "kongo-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/kongo-Afan Oromo_sentence-pairs",
+        paper_title: "kongo-Afan Oromo_sentence-pairs",
         downloads_total: 33,
       
         last_modified: "2025-03-30 19:51:23+00:00",
@@ -15212,14 +15212,14 @@ export const projects = [
       },
       {
         id: 482,
-        title: "ganda-oromo_sentence-pairs",
+        title: "ganda-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/ganda-oromo_sentence-pairs",
-        paper_title: "ganda-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/ganda-Afan Oromo_sentence-pairs",
+        paper_title: "ganda-Afan Oromo_sentence-pairs",
         downloads_total: 33,
       
         last_modified: "2025-04-02 11:08:52+00:00",
@@ -15237,14 +15237,14 @@ export const projects = [
       },
       {
         id: 483,
-        title: "fon-oromo_sentence-pairs",
+        title: "fon-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/fon-oromo_sentence-pairs",
-        paper_title: "fon-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/fon-Afan Oromo_sentence-pairs",
+        paper_title: "fon-Afan Oromo_sentence-pairs",
         downloads_total: 33,
       
         last_modified: "2025-04-02 12:02:45+00:00",
@@ -15262,14 +15262,14 @@ export const projects = [
       },
       {
         id: 484,
-        title: "afrikaans-oromo_sentence-pairs",
+        title: "afrikaans-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/afrikaans-oromo_sentence-pairs",
-        paper_title: "afrikaans-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/afrikaans-Afan Oromo_sentence-pairs",
+        paper_title: "afrikaans-Afan Oromo_sentence-pairs",
         downloads_total: 33,
       
         last_modified: "2025-04-03 13:34:57+00:00",
@@ -15287,14 +15287,14 @@ export const projects = [
       },
       {
         id: 485,
-        title: "oromo-zulu_sentence-pairs",
+        title: "Afan Oromo-zulu_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-zulu_sentence-pairs",
-        paper_title: "oromo-zulu_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-zulu_sentence-pairs",
+        paper_title: "Afan Oromo-zulu_sentence-pairs",
         downloads_total: 32,
       
         last_modified: "2025-03-30 20:09:29+00:00",
@@ -15312,14 +15312,14 @@ export const projects = [
       },
       {
         id: 486,
-        title: "oromo-twi_sentence-pairs",
+        title: "Afan Oromo-twi_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-twi_sentence-pairs",
-        paper_title: "oromo-twi_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-twi_sentence-pairs",
+        paper_title: "Afan Oromo-twi_sentence-pairs",
         downloads_total: 32,
       
         last_modified: "2025-03-30 20:08:06+00:00",
@@ -15337,14 +15337,14 @@ export const projects = [
       },
       {
         id: 487,
-        title: "oromo-tsonga_sentence-pairs",
+        title: "Afan Oromo-tsonga_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-tsonga_sentence-pairs",
-        paper_title: "oromo-tsonga_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-tsonga_sentence-pairs",
+        paper_title: "Afan Oromo-tsonga_sentence-pairs",
         downloads_total: 32,
       
         last_modified: "2025-03-30 20:07:23+00:00",
@@ -15362,14 +15362,14 @@ export const projects = [
       },
       {
         id: 488,
-        title: "bemba-oromo_sentence-pairs",
+        title: "bemba-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/bemba-oromo_sentence-pairs",
-        paper_title: "bemba-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/bemba-Afan Oromo_sentence-pairs",
+        paper_title: "bemba-Afan Oromo_sentence-pairs",
         downloads_total: 32,
       
         last_modified: "2025-04-03 11:03:34+00:00",
@@ -15387,14 +15387,14 @@ export const projects = [
       },
       {
         id: 489,
-        title: "afaan_oromo_dataset_final",
+        title: "afaan_Afan Oromo_dataset_final",
         creator: [
       {
           name: "KYAGABA",
           profile: "https://huggingface.co/KYAGABA",
       }  ],
-        link: "https://huggingface.co/datasets/KYAGABA/afaan_oromo_dataset_final",
-        paper_title: "afaan_oromo_dataset_final",
+        link: "https://huggingface.co/datasets/KYAGABA/afaan_Afan Oromo_dataset_final",
+        paper_title: "afaan_Afan Oromo_dataset_final",
         downloads_total: 31,
       
         last_modified: "2025-03-25 10:56:00+00:00",
@@ -15413,14 +15413,14 @@ export const projects = [
       },
       {
         id: 490,
-        title: "oromo-swati_sentence-pairs",
+        title: "Afan Oromo-swati_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-swati_sentence-pairs",
-        paper_title: "oromo-swati_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-swati_sentence-pairs",
+        paper_title: "Afan Oromo-swati_sentence-pairs",
         downloads_total: 31,
       
         last_modified: "2025-03-30 20:06:55+00:00",
@@ -15431,14 +15431,14 @@ export const projects = [
       },
       {
         id: 491,
-        title: "fulah-oromo_sentence-pairs",
+        title: "fulah-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/fulah-oromo_sentence-pairs",
-        paper_title: "fulah-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/fulah-Afan Oromo_sentence-pairs",
+        paper_title: "fulah-Afan Oromo_sentence-pairs",
         downloads_total: 30,
       
         last_modified: "2025-04-02 11:29:15+00:00",
@@ -15456,14 +15456,14 @@ export const projects = [
       },
       {
         id: 492,
-        title: "ewe-oromo_sentence-pairs",
+        title: "ewe-Afan Oromo_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/ewe-oromo_sentence-pairs",
-        paper_title: "ewe-oromo_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/ewe-Afan Oromo_sentence-pairs",
+        paper_title: "ewe-Afan Oromo_sentence-pairs",
         downloads_total: 30,
       
         last_modified: "2025-04-02 12:34:10+00:00",
@@ -15481,14 +15481,14 @@ export const projects = [
       },
       {
         id: 493,
-        title: "oromo_name",
+        title: "Afan Oromo_name",
         creator: [
       {
           name: "Soressaa",
           profile: "https://huggingface.co/Soressaa",
       }  ],
-        link: "https://huggingface.co/datasets/Soressaa/oromo_name",
-        paper_title: "oromo_name",
+        link: "https://huggingface.co/datasets/Soressaa/Afan Oromo_name",
+        paper_title: "Afan Oromo_name",
         downloads_total: 18,
       
         last_modified: "2023-07-15 14:50:54+00:00",
@@ -15508,14 +15508,14 @@ export const projects = [
       },
       {
         id: 494,
-        title: "alpaca_oromo_taco",
+        title: "alpaca_Afan Oromo_taco",
         creator: [
       {
           name: "saillab",
           profile: "https://huggingface.co/saillab",
       }  ],
-        link: "https://huggingface.co/datasets/saillab/alpaca_oromo_taco",
-        paper_title: "alpaca_oromo_taco",
+        link: "https://huggingface.co/datasets/saillab/alpaca_Afan Oromo_taco",
+        paper_title: "alpaca_Afan Oromo_taco",
         downloads_total: 11,
       
         last_modified: "2024-09-20 22:08:28+00:00",
@@ -15534,14 +15534,14 @@ export const projects = [
       },
       {
         id: 495,
-        title: "oromo_cleaned_dataset",
+        title: "Afan Oromo_cleaned_dataset",
         creator: [
       {
           name: "KYAGABA",
           profile: "https://huggingface.co/KYAGABA",
       }  ],
-        link: "https://huggingface.co/datasets/KYAGABA/oromo_cleaned_dataset",
-        paper_title: "oromo_cleaned_dataset",
+        link: "https://huggingface.co/datasets/KYAGABA/Afan Oromo_cleaned_dataset",
+        paper_title: "Afan Oromo_cleaned_dataset",
         downloads_total: 10,
       
         last_modified: "2025-02-19 11:21:25+00:00",
@@ -16217,14 +16217,14 @@ export const projects = [
       },
       {
         id: 524,
-        title: "oromo-tigrinya_sentence-pairs",
+        title: "Afan Oromo-tigrinya_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-tigrinya_sentence-pairs",
-        paper_title: "oromo-tigrinya_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-tigrinya_sentence-pairs",
+        paper_title: "Afan Oromo-tigrinya_sentence-pairs",
         downloads_total: 35,
       
         last_modified: "2025-03-30 20:07:09+00:00",
@@ -18170,14 +18170,14 @@ export const projects = [
       },
       {
         id: 605,
-        title: "oromo-somali_sentence-pairs",
+        title: "Afan Oromo-somali_sentence-pairs",
         creator: [
       {
           name: "michsethowusu",
           profile: "https://huggingface.co/michsethowusu",
       }  ],
-        link: "https://huggingface.co/datasets/michsethowusu/oromo-somali_sentence-pairs",
-        paper_title: "oromo-somali_sentence-pairs",
+        link: "https://huggingface.co/datasets/michsethowusu/Afan Oromo-somali_sentence-pairs",
+        paper_title: "Afan Oromo-somali_sentence-pairs",
         downloads_total: 35,
       
         last_modified: "2025-03-30 20:06:29+00:00",
