@@ -96,7 +96,7 @@ const AboutModal = () => {
                       rel="noopener noreferrer"
                       className="text-[#800020] hover:underline font-medium"
                     >
-                      Henok Ademtew.
+                      this guy.
                     </a>
                     
                   </p>
