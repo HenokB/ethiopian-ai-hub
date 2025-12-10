@@ -79,6 +79,13 @@ export const companies: CompanyType[] = [
     area: "AI Research ",
     description: "Research team of Chapa Financial Technologies",
     website: "https://ai.chapa.co/",
+  },
+  {
+    id: 11,
+    name: "Berhan AI ",
+    area: "Legal AI",
+    description: "Intelligent contract review and legal document analysis powered by AI trained specifically on Ethiopian law.",
+    website: "https://www.berhan.ai/",
   }
 ];
 
