@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const projects = [
   {
     id: 1,
@@ -31,29 +33,21 @@ export const projects = [
 
   {
     id: 2,
-    title: "Afro Chest X-ray",
-    languages_used: ["Python", "pydicom", "dicom2jpg"], 
-    creator: ["Negasi Haile", "Asmelash Teka", "Lesan AI"], 
-    description: `The Chest X-ray Imaging Dataset for Multiple Cardio-respiratory Diseases in Ethiopia (Afro Chest X-ray for short) is a project funded by the LacunaFund whose aim is to close the gap in health disparities by fostering interdisciplinary collaborations that create, expand, or aggregate labeled training and evaluation datasets.`,
-    featured: true, 
-    domain: ["Health"], 
-    category: ["Dataset"], 
-    field: "Computer Vision", 
+    title: "Leyu Dataset",
+    creator: ["iCog"], 
+    description: `Speech Dataset`,
+    category: ["Speech"], 
+    field: "NLP", 
     links: [
       {
         id: 1,
-        name: "GitHub",
-        link: "https://github.com/asmelashteka/Afro-Chest-X-ray",
-      },
-      {
-        id: 2,
-        name: "Hugging Face",
-        link: "https://github.com/asmelashteka/Afro-Chest-X-ray",
+        name: "Website",
+        link: "https://leyu.ai/resources",
       },
     ],
-    year: "2024", 
-    content: "Dataset",
   },
+
+
   {
     id: 3,
     title: "AGE: Amharic, English, Ge'ez Dataset",
