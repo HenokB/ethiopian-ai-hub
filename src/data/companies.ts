@@ -42,7 +42,7 @@ export const companies: CompanyType[] = [
     id: 5,
     name: "Ethiopian AI Insititute",
     area: "AI Research & Development",
-    website: "https://www.eii.et/",
+    website: "https://aii.et/Home",
     description: "Ethiopian AI Institute is a research institution in AI and machine learning",
   },
   {
