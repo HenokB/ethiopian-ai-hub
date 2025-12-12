@@ -86,6 +86,13 @@ export const companies: CompanyType[] = [
     area: "Legal AI",
     description: "Intelligent contract review and legal document analysis powered by AI trained specifically on Ethiopian law.",
     website: "https://www.berhan.ai/",
+  },
+  {
+    id: 12,
+    name: "Leyu",
+    area: "Crowdsourcing Dataset",
+    description: "Crowdsourcing datasets for low resource languages.",
+    website: "https://leyu.ai/",
   }
 ];
 
